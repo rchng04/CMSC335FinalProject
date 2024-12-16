@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/styles.css">
+	<title>Create Class</title>
+</head>
+
+<body class="border">
+	<h1><img src="/dice.png" width="50"> Create a Homebrew Class</h1>
+	<form action="/apply" method="post" onsubmit="return confirmSubmit()">
+		
+		<fieldset>
+			<label>Name: <input type="text" name="name"/></label> <br>
+			<label>Hit Dice: <input type="text" name="hit_dice"/></label> <br>
+			<label>HP at 1st Level: <input type="text" name="hp_at_1st_level"/></label> <br>
+			<label>HP at Higher Levels: <input type="text" name="hp_at_higher_levels"/></label> <br>
+			<label>Armor Proficiencies: <input type="text" name="prof_armor"/></label> <br>
+			<label>Weapon Proficiencies: <input type="text" name="prof_weapons"/></label> <br>
+			<label>Tool Proficiencies: <input type="text" name="prof_tools"/></label> <br>
+			<label>Skill Proficiencies: <input type="text" name="prof_skills"/></label> <br>
+			<label>Equipment: <input type="text" name="equipment"/></label> <br>
+			<label>Spellcasting Ability: <input type="text" name="spellcasting_ability"/></label> <br>
+			<label>Description: <input type="text" name="description"/></label> <br>
+			<br>
+		</fieldset>
+		
+		<input type="reset"/>
+		<input type="submit" value="Submit Application"/>
+	</form>
+
+	<a href="/">HOME</a>
+
+	<script>
+        function confirmSubmit() {
+            return confirm("Are you finished with your homebrew class? \nYou will not be able to edit this class once submitted.");
+        }
+    </script>
+</body>
+
+</html>

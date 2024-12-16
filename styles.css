@@ -59,7 +59,7 @@ strong {
     border-style: ridge;
     border-width: 0.5rem;
     border-color: gold;
-    background-image: url(parchmentbg.jpg);
+    background-image: url(/parchmentbg.jpg);
     background-size:cover;
     background-repeat: repeat;
     padding: 1rem;
