@@ -1,0 +1,70 @@
+/* Ryan Chng */
+
+/* Do not remove this rule */
+
+html {
+    font-size: 20px;
+    font-family:fantasy;
+}
+
+form {
+    text-align: left;
+}
+
+
+label {
+    display: inline-block;
+    color: black;
+    text-decoration: underline;
+    font-size: 1.25rem;
+}
+
+input[type="submit"], input[type="reset"] {
+    border-width: 3px;
+    font-size: 20px;
+    font-family:fantasy;
+    border-style: double;
+    border-color: black;
+    background-color: chocolate;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+}
+
+a:visited {
+    color: beige;
+}
+
+a:hover {
+	font-size: 1.5rem;
+}
+
+a {
+	color: brown;
+}
+
+.styleHeader {
+	color: azure;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: bold;
+    width: fit-content;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.border {
+    border-style: ridge;
+    border-width: 0.5rem;
+    border-color: gold;
+    background-image: url(parchmentbg.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+    padding: 1rem;
+    width:51rem;
+    display: block;
+    height: 37rem;
+    
+}

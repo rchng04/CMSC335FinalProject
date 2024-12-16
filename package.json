@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  },
+  "name": "final-exam",
+  "version": "1.0.0",
+  "description": "Submitted by: Ryan Chng (directory id: rchng)\r Group Members: Ryan Chng (directory id: rchng)\r App Description: Allow users to quickly access important info on D&D classes, and homebrew new ones.\r YouTube Video Link: [video](https://5e-bits.github.io/docs/)\r APIs: D&D 5e SRD API [here](https://5e-bits.github.io/docs/api/get-a-class-by-index)\r Contact Email:  rchng@terpmail.umd.edu",
+  "main": "finalProjectServer.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
